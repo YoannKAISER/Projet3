@@ -1,0 +1,425 @@
+/*GENERAL*/
+h2, h3, p {
+  font-family: Raleway;
+}
+
+body {
+    height: 1884px;
+    max-width: 1440px;
+    left: 2042px;
+    top: 194px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+
+/*HEADER*/
+header {
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    height: 120px;
+    width: 1339px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo {
+    position: absolute;
+    height: 19px;
+    width: 61.089656829833984px;
+    left: 0px;
+    top: 48px;
+    border-radius: 0px;
+}
+.bordertop {
+    position: absolute;
+    height: 2px;
+    width: 162px;
+    left: 1060px;
+    top: 0px;
+    border-radius: 0px;
+    background: #0065FC;
+}
+.bordertop:hover {
+    position: absolute;
+    height: 3px;
+}
+nav {
+    position: absolute;
+    height: 19px;
+    width: 381px;
+    right: 0px;
+    top: 48px;
+    border-radius: 0px;
+   ;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+.hébergement {
+    position: absolute;
+    height: 19px;
+    width: 113px;
+    left: 138px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0065FC;
+}
+.hébergement:hover {
+    text-decoration: underline 2px rgb(158, 19, 128);
+}
+.activités {
+    position: absolute;
+    height: 19px;
+    width: 63px;
+    left: 318px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.activités:hover {
+    text-decoration: underline 2px rgb(158, 19, 128);
+}
+
+
+/*main*/
+main {
+    position: absolute;
+    left: 48px;
+    height: 1566px;
+    width: 1339px;
+    top: 120px;
+    border-radius: 0px;
+}
+
+p {
+    position: absolute;
+    height: 19px;
+    width: 296px;
+    left: 55px;
+    top: 33px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.hébergementderêve {
+    position: absolute;
+    height: 26px;
+    width: 600px;
+    left: 55px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
+.texteMarseille {
+    position: absolute;
+    height: 49px;
+    width: 332px;
+    left: 55px;
+    top: 79px;
+    border-radius: 0px;
+    border: 1px solid #F2F2F2;
+
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration-color: #000000;
+}
+.Rechercher {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 17px;
+    width: 132px;
+    left: 341px;
+    top: 79px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px 15px 16px;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Filterbar {
+    position: absolute;
+    height: 50px;
+    width: 914px;
+    left: 62px;
+    top: 280px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-items: center;
+}
+.Filtres {
+    
+    height: 21px;
+    width: 54px;
+    left: 62px;
+    top:280px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-color: #000000;
+}
+button {
+    position: absolute;
+    height: 48px;
+    width: 175px;
+    left: 148px;
+    top: 280px;
+    border-radius: 25px;
+    padding: 4px 20px 4px 20px;
+    background: #D9D9D9;
+    border: 2px solid #D9D9D9;
+    display: flex;
+}    
+.logementsdispo {
+    position: absolute;
+    height: 24px;
+    width: 447px;
+    left: 59px;
+    top: 365px;
+    border-radius: 0px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Hébergements {
+    position: absolute;
+    height: 626px;
+    width: 1340px;
+    left: 0px;
+    top: 426px;
+}
+.hébergementMarseille {
+    position: absolute;
+    height: 626px;
+    width: 880px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    background: #F2F2F2;
+}
+.HébergementsàMarseille {
+    position: absolute;
+    height: 26px;
+    width: 1340px;
+    left: 40px;
+    top: 42px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Lespluspopulaires {
+    position: absolute;
+    height: 625px;
+    width: 420px;
+    right: 0px;
+    top: 0px;
+    border-radius: 20px;
+    background: #F2F2F2;
+}
+.lespluspopulaires {
+    position: absolute;
+    height: 26px;
+    width: 278px;
+    left: 40px;
+    top: 42px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ActivitésàMarseille {
+    position: absolute;
+    height: 30.018735885620117px;
+    width: 212px;
+    left: 50px;
+    top: 1112px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.directionRow {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-evenly;
+    text-align: left;
+}
+.directionColumn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.aubergecanebiere {
+    position: absolute;
+    height: 199px;
+    width: 246px;
+    left: 40px;
+    top: 91px;
+    border-radius: 0px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.aubergelacanebière {
+    box-sizing: border-box;
+    position: absolute;
+    height: 124px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    bottom: 37.69%;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid #FFFFFF;
+}
+.Canebière {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 128px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Nuit {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 152px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Hôtel {
+    position: absolute;
+    height: 199px;
+    width: 246px;
+    left: 317px;
+    top: 91px;
+    border-radius: 0px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.Hôtelduport {
+    box-sizing: border-box;
+    position: absolute;
+    height: 124px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.Hôtelduport{
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 128px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Afficherplus {
+    position: absolute;
+    height: 21px;
+    width: 107px;
+    left: 44px;
+    top: 559px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*footer*/
+footer {
+    position: absolute;
+    height: 225px;
+    width: 1339px;
+    left: 48px;
+    top: 1666px;
+    border-radius: 0px;
+    background: #F2F2F2;
+}
