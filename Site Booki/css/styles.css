@@ -1,24 +1,30 @@
 /*GENERAL*/
-h2, h3, p {
-  font-family: Raleway;
-}
-
 body {
     height: 1884px;
     max-width: 1440px;
     left: 2042px;
     top: 194px;
     border-radius: 0px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 /*HEADER*/
 header {
     position: absolute;
     top: 0px;
     left: 48px;
     height: 120px;
-    width: 1339px;
+    width: 1440px;
     border-radius: 0px;
     display: flex;
     flex-direction: row;
@@ -36,14 +42,14 @@ header {
     position: absolute;
     height: 2px;
     width: 162px;
-    left: 1060px;
+    left: 1160px;
     top: 0px;
     border-radius: 0px;
     background: #0065FC;
 }
 .bordertop:hover {
     position: absolute;
-    height: 3px;
+    height: 4px;
 }
 nav {
     position: absolute;
@@ -52,14 +58,13 @@ nav {
     right: 0px;
     top: 48px;
     border-radius: 0px;
-   ;
 }
 
 li {
     display: flex;
     flex-direction: row;
 }
-.hébergement {
+.Hébergements {
     position: absolute;
     height: 19px;
     width: 113px;
@@ -74,7 +79,7 @@ li {
     text-align: center;
     color: #0065FC;
 }
-.hébergement:hover {
+.Hébergements:hover {
     text-decoration: underline 2px rgb(158, 19, 128);
 }
 .activités {
@@ -102,26 +107,19 @@ main {
     position: absolute;
     left: 48px;
     height: 1566px;
-    width: 1339px;
+    width: 1440px;
     top: 120px;
     border-radius: 0px;
 }
 
-p {
+.hébergements {
     position: absolute;
-    height: 19px;
-    width: 296px;
-    left: 55px;
-    top: 33px;
-    border-radius: nullpx;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
+    top: 0px;
+    left: 0px;
+    height: 426px;
+    width: 1440px;
 }
-.hébergementderêve {
+.titresectionhébergement {
     position: absolute;
     height: 26px;
     width: 600px;
@@ -133,12 +131,26 @@ p {
     font-weight: 700;
     letter-spacing: 0em;
 }
+.centrevillenature {
+    position: absolute;
+    height: 19px;
+    width: 296px;
+    left: 55px;
+    top: 35px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 .texteMarseille {
     position: absolute;
     height: 49px;
     width: 332px;
     left: 55px;
-    top: 79px;
+    top: 90px;
     border-radius: 0px;
     border: 1px solid #F2F2F2;
 
@@ -150,7 +162,7 @@ p {
     text-align: center;
     text-decoration-color: #000000;
 }
-.Rechercher {
+.boutonrechercher {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -159,7 +171,7 @@ p {
     height: 17px;
     width: 132px;
     left: 341px;
-    top: 79px;
+    top: 90px;
     border-radius: 0px 15px 15px 0px;
     padding: 15px 16px 15px 16px;
     background: #0065FC;
@@ -179,7 +191,7 @@ p {
     height: 50px;
     width: 914px;
     left: 62px;
-    top: 280px;
+    top: 180px;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
@@ -188,11 +200,11 @@ p {
     align-items: center;
 }
 .Filtres {
-    
+    position: absolute;
     height: 21px;
     width: 54px;
-    left: 62px;
-    top:280px;
+    left: 0px;
+    top:0px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -200,25 +212,81 @@ p {
     text-align: center;
     text-decoration-color: #000000;
 }
-button {
+.Economique {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     height: 48px;
     width: 175px;
     left: 148px;
-    top: 280px;
+    top: 0px;
     border-radius: 25px;
     padding: 4px 20px 4px 20px;
-    background: #D9D9D9;
     border: 2px solid #D9D9D9;
-    display: flex;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
 }    
+
+.Familial {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 48px;
+    width: 136px;
+    left: 366px;
+    top: 0px;
+    border-radius: 25px;
+    padding: 4px 20px 4px 20px;
+    border: 2px solid #D9D9D9
+}
+
+.Romantique {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 48px;
+    width: 172px;
+    left: 542px;
+    top: 0px;
+    border-radius: 25px;
+    padding: 4px 20px 4px 20px;
+    border: 2px solid #D9D9D9
+}
+.Animauxautorisés {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 50px;
+    width: 226px;
+    left: 750px;
+    top: 0px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
+    linear-gradient(0deg, #DEEBFF, #DEEBFF);
+    border: 2px solid #D9D9D9
+
+}
+
 .logementsdispo {
     position: absolute;
     height: 24px;
     width: 447px;
-    left: 59px;
-    top: 365px;
-    border-radius: 0px;
+    left: 94px;
+    top: 265px;
     font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
@@ -226,10 +294,10 @@ button {
     letter-spacing: 0em;
     text-align: left;
 }
-.Hébergements {
+.HébergementsàMarseille {
     position: absolute;
     height: 626px;
-    width: 1340px;
+    width: 1440px;
     left: 0px;
     top: 426px;
 }
@@ -242,7 +310,7 @@ button {
     border-radius: 20px;
     background: #F2F2F2;
 }
-.HébergementsàMarseille {
+.texteHébergementsàMarseille {
     position: absolute;
     height: 26px;
     width: 1340px;
@@ -256,67 +324,8 @@ button {
     letter-spacing: 0em;
     text-align: left;
 }
-.Lespluspopulaires {
-    position: absolute;
-    height: 625px;
-    width: 420px;
-    right: 0px;
-    top: 0px;
-    border-radius: 20px;
-    background: #F2F2F2;
-}
-.lespluspopulaires {
-    position: absolute;
-    height: 26px;
-    width: 278px;
-    left: 40px;
-    top: 42px;
-    font-family: Raleway;
-    font-style: normal;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.ActivitésàMarseille {
-    position: absolute;
-    height: 30.018735885620117px;
-    width: 212px;
-    left: 50px;
-    top: 1112px;
-    border-radius: nullpx;
-    font-family: Raleway;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.directionRow {
-	display: flex;
-	flex-direction: row;
-    flex-wrap: nowrap;
-	justify-content: space-evenly;
-    text-align: left;
-}
-.directionColumn {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    color: #000000;
-}
-a {
-    text-decoration: none;
-    color: #000000;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
+.texteHébergementsàMarseille:hover {
+    text-decoration: underline 4px rgb(158, 19, 128);
 }
 .aubergecanebiere {
     position: absolute;
@@ -398,6 +407,30 @@ a {
     letter-spacing: 0em;
     text-align: left;
 }
+.Lespluspopulaires {
+    position: absolute;
+    height: 625px;
+    width: 420px;
+    right: 0px;
+    top: 0px;
+    border-radius: 20px;
+    background: #F2F2F2;
+}
+.lespluspopulaires {
+    position: absolute;
+    height: 26px;
+    width: 278px;
+    left: 40px;
+    top: 42px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .Afficherplus {
     position: absolute;
     height: 21px;
@@ -412,14 +445,53 @@ a {
     letter-spacing: 0em;
     text-align: left;
 }
+.Afficherplus:hover {
+    text-decoration: underline 3px rgb(158, 19, 128);
+}
 
+.ActivitésMarseille {
+    position: absolute;
+    top: 1050px;
+    height: 496px;
+    width: 1440px;
+    left: 0px;
+}
+
+.ActivitésàMarseille {
+    position: absolute;
+    height: 30.018735885620117px;
+    width: 212px;
+    left: 50px;
+    top: 0px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.ActivitésàMarseille:hover {
+    text-decoration: underline 4px rgb(158, 19, 128);
+}
 /*footer*/
 footer {
     position: absolute;
     height: 225px;
-    width: 1339px;
+    width: 1440px;
     left: 48px;
     top: 1666px;
     border-radius: 0px;
     background: #F2F2F2;
+}
+
+.directionRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    text-align: left;
+}
+.directionColumn {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
 }
