@@ -19,12 +19,6 @@ a {
     text-align: left;
 }
 
-p:hover,
-h3:hover,
-h4:hover,
-a:hover {
-    text-decoration: underline 3px rgb(158, 19, 128);
-}
 /*HEADER*/
 header {
     position: absolute;
@@ -45,7 +39,7 @@ header {
     top: 48px;
     border-radius: 0px;
 }
-.bordertop {
+bordertop {
     position: absolute;
     height: 2px;
     width: 162px;
@@ -84,7 +78,12 @@ li {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
+    color: #000000;
+}
+.hebergements:hover {
+    position: absolute;
     color: #0065FC;
+    border-top: 2px solid #0065FC ;
 }
 .activites {
     position: absolute;
@@ -101,7 +100,11 @@ li {
     text-align: center;
     color: #000000;
 }
-
+.activites:hover {
+    position: absolute;
+    color: #0065FC;
+    border-top: 2px solid #0065FC ;
+}
 /*main*/
 main {
     position: absolute;
@@ -123,8 +126,8 @@ main {
     position: absolute;
     height: 26px;
     width: 600px;
-    left: 55px;
-    top: 0px;
+    left: 0px;
+    top: 10px;
     font-family: Raleway;
     font-style: normal;
     font-size: 22px;
@@ -135,8 +138,8 @@ main {
     position: absolute;
     height: 19px;
     width: 296px;
-    left: 55px;
-    top: 35px;
+    left: 0px;
+    top: 45px;
     border-radius: nullpx;
     font-family: Raleway;
     font-size: 16px;
@@ -145,11 +148,39 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
+.loc {
+    height: 49px;
+    width: 332px;
+    left: 55px;
+    top: 210px;
+    border-radius: 0px;
+}
+.localisation {
+    position: absolute;
+    height: 47px;
+    width: 50px;
+    left: 0px;
+    top: 90px;
+    border-radius: 15px 0px 0px 15px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2
+}
+.fa-solid,
+.fa-location-dot {
+    position: absolute;
+    height: 18px;
+    width: 14px;
+    left: 18px;
+    top: 16px;
+    border-radius: 0px;
+}
+
 .textemarseille {
     position: absolute;
     height: 49px;
     width: 332px;
-    left: 55px;
+    left: 52px;
     top: 90px;
     border-radius: 0px;
     border: 1px solid #F2F2F2;
@@ -190,8 +221,8 @@ main {
     position: absolute;
     height: 50px;
     width: 914px;
-    left: 62px;
-    top: 180px;
+    left: 0px;
+    top: 200px;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
@@ -212,12 +243,21 @@ main {
     text-align: center;
     text-decoration-color: #000000;
 }
+.fa-money-bill-wave {
+    position: absolute;
+    height: 16.260868072509766px;
+    width: 22px;
+    left: 170px;
+    top: 15px;
+    border-radius: 0px;
+    color: #0065FC;
+}
 .economique {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position: absolute;
     height: 48px;
     width: 175px;
@@ -232,13 +272,21 @@ main {
     font-size: 17px;
     line-height: 20px;
 }    
-
+.fa-person {
+    position: absolute;
+    height: 22px;
+    width: 13.444442749023438px;
+    left: 385px;
+    top: 15px;
+    border-radius: 0px;
+    color: #0065FC;
+}
 .familial {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position: absolute;
     height: 48px;
     width: 136px;
@@ -246,15 +294,29 @@ main {
     top: 0px;
     border-radius: 25px;
     padding: 4px 20px 4px 20px;
-    border: 2px solid #D9D9D9
+    border: 2px solid #D9D9D9;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-
+.fa-heart {
+    position: absolute;
+    height: 18.33333396911621px;
+    width: 22px;
+    left: 560px;
+    top: 15px;
+    border-radius: 0px;
+    color: #0065FC;
+}
 .romantique {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position: absolute;
     height: 48px;
     width: 172px;
@@ -262,7 +324,22 @@ main {
     top: 0px;
     border-radius: 25px;
     padding: 4px 20px 4px 20px;
-    border: 2px solid #D9D9D9
+    border: 2px solid #D9D9D9;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.fa-dog {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 760px;
+    top: 15px;
+    border-radius: 0px;
+    color: #0065FC;
 }
 .animauxautorises {
     box-sizing: border-box;
@@ -275,17 +352,47 @@ main {
     left: 750px;
     top: 0px;
     border-radius: 25px;
-    background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
-    linear-gradient(0deg, #DEEBFF, #DEEBFF);
-    border: 2px solid #D9D9D9
+    border: 2px solid #D9D9D9;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.infobar {
+    position: absolute;
+    height: 24px;
+    width: 447px;
+    left: 0px;
+    top: 20px;
+    border-radius: 0px;
 
 }
-
+.info {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 0px;
+    top: 278px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+}
+.fa-info {
+    position: absolute;
+    height: 10px;
+    width: 4px;
+    left: 9px;
+    top: 2px;
+    border-radius: 0px;
+    color: #0065FC;
+}
 .logementsdispo {
     position: absolute;
     height: 24px;
     width: 447px;
-    left: 94px;
+    left: 35px;
     top: 265px;
     font-family: Raleway;
     font-size: 16px;
@@ -316,9 +423,6 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.titrehebergementsamarseille:hover {
-    text-decoration: underline 4px rgb(158, 19, 128);
-}
 
 .hebergementmarseille {
     position: absolute;
@@ -335,7 +439,7 @@ main {
     width: 246px;
     left: 40px;
     top: 91px;
-    border-radius: 0px;
+    border-radius: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
@@ -355,7 +459,7 @@ main {
     height: 15px;
     width: 204px;
     left: 16px;
-    top: 128px;
+    top: 110px;
     font-family: Raleway;
     font-size: 16px;
     font-weight: 700;
@@ -363,12 +467,12 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.nuit {
+.nuit25 {
     position: absolute;
     height: 15px;
     width: 204px;
     left: 16px;
-    top: 152px;
+    top: 140px;
     font-family: Raleway;
     font-size: 14px;
     font-weight: 600;
@@ -376,13 +480,13 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.hotel {
+.port {
     position: absolute;
     height: 199px;
     width: 246px;
     left: 317px;
     top: 91px;
-    border-radius: 0px;
+    border-radius: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
@@ -396,18 +500,92 @@ main {
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
 }
-.hotelduport2{
+.titrehotelduport {
     position: absolute;
     height: 15px;
     width: 204px;
     left: 16px;
-    top: 128px;
+    top: 110px;
     font-family: Raleway;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+}
+.nuit52 {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 140px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.mouettes {
+    position: absolute;
+    height: 199px;
+    width: 246px;
+    left: 594px;
+    top: 91px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+
+}
+.hotelmouettes {
+    position: absolute;
+    height: 199px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+.hotellesmouettes {
+    box-sizing: border-box;
+    position: absolute;
+    height: 124px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid #FFFFFF
+}
+.mer {
+    position: absolute;
+    height: 199px;
+    width: 246px;
+    left: 40px;
+    top: 320px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.panier {
+    position: absolute;
+    height: 199px;
+    width: 246px;
+    left: 317px;
+    top: 320px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.amina {
+    position: absolute;
+    height: 199px;
+    width: 246px;
+    left: 594px;
+    top: 320px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
 }
 .lespluspopulaires {
     position: absolute;
@@ -469,9 +647,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.titreactivitesamarseille:hover {
-    text-decoration: underline 4px rgb(158, 19, 128);
-}
+
 /*footer*/
 footer {
     position: absolute;
