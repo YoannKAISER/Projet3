@@ -1,4 +1,8 @@
 /*GENERAL*/
+@font-face {
+    font-family: "Raleway";
+    src: url('Raleway/Raleway-VariableFont_wght.ttf');
+}
 body {
     height: 1884px;
     max-width: 1440px;
@@ -35,8 +39,8 @@ header {
     position: absolute;
     height: 19px;
     width: 61.089656829833984px;
-    left: 0px;
-    top: 48px;
+    left: 55px;
+    top: 44px;
     border-radius: 0px;
 }
 bordertop {
@@ -69,7 +73,7 @@ li {
     position: absolute;
     height: 19px;
     width: 113px;
-    left: 138px;
+    left: 50px;
     top: 0px;
     border-radius: nullpx;
     font-family: Raleway;
@@ -83,13 +87,13 @@ li {
 .hebergements:hover {
     position: absolute;
     color: #0065FC;
-    border-top: 2px solid #0065FC ;
+    border-top: 2px solid #0065FC;
 }
 .activites {
     position: absolute;
     height: 19px;
     width: 63px;
-    left: 318px;
+    right: 77px;
     top: 0px;
     border-radius: nullpx;
     font-family: Raleway;
@@ -126,7 +130,7 @@ main {
     position: absolute;
     height: 26px;
     width: 600px;
-    left: 0px;
+    left: 55px;
     top: 10px;
     font-family: Raleway;
     font-style: normal;
@@ -138,7 +142,7 @@ main {
     position: absolute;
     height: 19px;
     width: 296px;
-    left: 0px;
+    left: 55px;
     top: 45px;
     border-radius: nullpx;
     font-family: Raleway;
@@ -160,7 +164,7 @@ main {
     position: absolute;
     height: 47px;
     width: 50px;
-    left: 0px;
+    left: 55px;
     top: 90px;
     border-radius: 15px 0px 0px 15px;
     background: #F2F2F2;
@@ -180,11 +184,10 @@ main {
     position: absolute;
     height: 49px;
     width: 332px;
-    left: 52px;
+    left: 100px;
     top: 90px;
     border-radius: 0px;
     border: 1px solid #F2F2F2;
-
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -201,7 +204,7 @@ main {
     justify-content: center;
     height: 17px;
     width: 132px;
-    left: 341px;
+    left: 410px;
     top: 90px;
     border-radius: 0px 15px 15px 0px;
     padding: 15px 16px 15px 16px;
@@ -221,7 +224,7 @@ main {
     position: absolute;
     height: 50px;
     width: 914px;
-    left: 0px;
+    left: 62px;
     top: 200px;
     border-radius: 25px;
     display: flex;
@@ -235,7 +238,7 @@ main {
     height: 21px;
     width: 54px;
     left: 0px;
-    top:0px;
+    top: 0px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -243,88 +246,128 @@ main {
     text-align: center;
     text-decoration-color: #000000;
 }
-.fa-money-bill-wave {
-    position: absolute;
-    height: 16.260868072509766px;
-    width: 22px;
-    left: 170px;
-    top: 15px;
-    border-radius: 0px;
-    color: #0065FC;
-}
 .economique {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-start;
     position: absolute;
+    padding: 4px 20px 4px 20px;
     height: 48px;
     width: 175px;
-    left: 148px;
+    left: 104px;
     top: 0px;
     border-radius: 25px;
-    padding: 4px 20px 4px 20px;
     border: 2px solid #D9D9D9;
+    background: #FFFFFF;
+}
+.economique:hover {
+    background: #D9D9D9
+}
+.fa-money-bill-wave {
+    position: absolute;
+    height: 16.260868072509766px;
+    width: 22px;
+    left: 15px;
+    top: 15px;
+    border-radius: 0px;
+    color: #0065FC;
+}
+.texteconomique {
+    position: absolute;
+    height: 20px;
+    width: 103px;
+    left: 45px;
+    top: 12px;
+    border-radius: nullpx;
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
 }    
-.fa-person {
-    position: absolute;
-    height: 22px;
-    width: 13.444442749023438px;
-    left: 385px;
-    top: 15px;
-    border-radius: 0px;
-    color: #0065FC;
-}
+
 .familial {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    padding: 4px 20px 4px 20px;
     position: absolute;
     height: 48px;
     width: 136px;
-    left: 366px;
+    left: 328px;
     top: 0px;
     border-radius: 25px;
-    padding: 4px 20px 4px 20px;
     border: 2px solid #D9D9D9;
+    background: #FFFFFF;
+}
+.familial:hover {
+    background: #D9D9D9
+}
+.fa-person {
+    position: absolute;
+    height: 22px;
+    width: 13.444442749023438px;
+    left: 15px;
+    top: 15px;
+    border-radius: 0px;
+    color: #0065FC;
+}
+.textfamilial {
+    position: absolute;
+    height: 20px;
+    width: 64px;
+    left: 35px;
+    top: 12px;
+    border-radius: nullpx;
     font-family: Raleway;
     font-size: 17px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.romantique {
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 20px 4px 20px;
+    position: absolute;
+    height: 48px;
+    width: 172px;
+    left: 508px;
+    top: 0px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    background: #FFFFFF;
+}
+.romantique:hover {
+    background: #D9D9D9
 }
 .fa-heart {
     position: absolute;
     height: 18.33333396911621px;
     width: 22px;
-    left: 560px;
+    left: 15px;
     top: 15px;
     border-radius: 0px;
     color: #0065FC;
 }
-.romantique {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+.textromantique {
     position: absolute;
-    height: 48px;
-    width: 172px;
-    left: 542px;
-    top: 0px;
-    border-radius: 25px;
-    padding: 4px 20px 4px 20px;
-    border: 2px solid #D9D9D9;
+    height: 20px;
+    width: 64px;
+    left: 42px;
+    top: 12px;
+    border-radius: nullpx;
     font-family: Raleway;
     font-size: 17px;
     font-weight: 700;
@@ -332,15 +375,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.fa-dog {
-    position: absolute;
-    height: 22px;
-    width: 22px;
-    left: 760px;
-    top: 15px;
-    border-radius: 0px;
-    color: #0065FC;
-}
+
 .animauxautorises {
     box-sizing: border-box;
     display: flex;
@@ -353,6 +388,27 @@ main {
     top: 0px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
+    background: #FFFFFF;
+}
+.animauxautorises:hover {
+    background: #D9D9D9
+}
+.fa-dog {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 15px;
+    top: 15px;
+    border-radius: 0px;
+    color: #0065FC;
+}
+.textanimauxautorises {
+    height: 20.833332061767578px;
+    width: 226px;
+    left: 52px;
+    top: 12px;
+    border-radius: nullpx;
+    position: absolute;
     font-family: Raleway;
     font-size: 17px;
     font-weight: 700;
@@ -364,8 +420,8 @@ main {
     position: absolute;
     height: 24px;
     width: 447px;
-    left: 0px;
-    top: 20px;
+    left: 59px;
+    top: 15px;
     border-radius: 0px;
 
 }
@@ -404,26 +460,10 @@ main {
 .hebergementsamarseille {
     position: absolute;
     height: 626px;
-    width: 1440px;
-    left: 0px;
+    width: 1340px;
+    left: 50px;
     top: 426px;
 }
-
-.titrehebergementsamarseille {
-    position: absolute;
-    height: 26px;
-    width: 1340px;
-    left: 40px;
-    top: 42px;
-    font-family: Raleway;
-    font-style: normal;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
 .hebergementmarseille {
     position: absolute;
     height: 626px;
@@ -433,6 +473,21 @@ main {
     border-radius: 20px;
     background: #F2F2F2;
 }
+.titrehebergementsamarseille {
+    position: absolute;
+    height: 26px;
+    width: 1340px;
+    left: 40px;
+    top: 25px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .aubergecanebiere {
     position: absolute;
     height: 199px;
@@ -445,6 +500,7 @@ main {
 }
 .aubergelacanebiere {
     box-sizing: border-box;
+    object-fit: cover;
     position: absolute;
     height: 124px;
     width: 246px;
@@ -480,6 +536,35 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+.etoilescanebiere {
+    position: absolute;
+    height: 12px;
+    width: 68px;
+    left: 16px;
+    top: 176px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.fa-star {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    color: #0065FC;
+}
+.st {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    left: 20px;
+    top: 0px;
+    border-radius: 0px;
+    color: #0065FC;    
+}
 .port {
     position: absolute;
     height: 199px;
@@ -492,6 +577,7 @@ main {
 }
 .hotelduport {
     box-sizing: border-box;
+    object-fit: cover;
     position: absolute;
     height: 124px;
     width: 246px;
@@ -549,6 +635,7 @@ main {
 }
 .hotellesmouettes {
     box-sizing: border-box;
+    object-fit: cover;
     position: absolute;
     height: 124px;
     width: 246px;
@@ -556,6 +643,34 @@ main {
     top: 0px;
     border-radius: 20px 20px 0px 0px;
     border: 5px solid #FFFFFF
+}
+.titrehotellesmouettes {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 110px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nuit76 {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 140px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .mer {
     position: absolute;
@@ -567,6 +682,45 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
+.hoteldelamer {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 124px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid #FFFFFF
+}
+.titrehoteldelamer {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 110px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nuit46 {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 140px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 .panier {
     position: absolute;
     height: 199px;
@@ -576,6 +730,45 @@ main {
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
+}
+.aubergelepanier {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 124px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid #FFFFFF
+}
+.titreaubergelepanier {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 110px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nuit23 {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 140px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .amina {
     position: absolute;
@@ -587,30 +780,45 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.lespluspopulaires {
+.hotelchezamina {
+    box-sizing: border-box;
+    object-fit: cover;
     position: absolute;
-    height: 625px;
-    width: 420px;
-    right: 0px;
+    height: 124px;
+    width: 246px;
+    left: 0px;
     top: 0px;
-    border-radius: 20px;
-    background: #F2F2F2;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid #FFFFFF
 }
-.lespluspopulaires2 {
+.titrehotelchezamina {
     position: absolute;
-    height: 26px;
-    width: 278px;
-    left: 40px;
-    top: 42px;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 110px;
+    border-radius: nullpx;
     font-family: Raleway;
-    font-style: normal;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
 }
-
+.nuit96 {
+    position: absolute;
+    height: 15px;
+    width: 204px;
+    left: 16px;
+    top: 140px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 .afficherplus {
     position: absolute;
     height: 21px;
@@ -625,20 +833,200 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+.lespluspopulaires {
+    position: absolute;
+    height: 625px;
+    width: 420px;
+    right: 0px;
+    top: 0px;
+    border-radius: 20px;
+    background: #F2F2F2;
+}
+.titrelespluspopulaires {
+    position: absolute;
+    height: 26px;
+    width: 278px;
+    left: 37px;
+    top: 25px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.fa-chart-line {
+    position: absolute;
+    height: 15.75px;
+    width: 18px;
+    left: 360px;
+    top: 46px;
+    border-radius: 0px;
+    color: #0065FC;
+}
+.soleil {
+    position: absolute;
+    height: 144px;
+    width: 343px;
+    left: 37px;
+    top: 93px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.hotellesoleildumatin {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 144px;
+    width: 137px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 0px 0px 20px;
+    border: 5px solid #FFFFFF
+}
+.titrehotellesoleildumatin {
+    position: absolute;
+    height: 38px;
+    width: 169px;
+    left: 152px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nuit128 {
+    position: absolute;
+    height: 15px;
+    width: 169px;
+    left: 152px;
+    top: 50px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.coeurdeleau {
+    position: absolute;
+    height: 144px;
+    width: 343px;
+    left: 37px;
+    top: 270px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.chambresdhotes {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 144px;
+    width: 137px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 0px 0px 20px;
+    border: 5px solid #FFFFFF
+}
+.titrechambresdhotes {
+    position: absolute;
+    height: 38px;
+    width: 169px;
+    left: 152px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nuit71 {
+    position: absolute;
+    height: 15px;
+    width: 169px;
+    left: 152px;
+    top: 50px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.bleuetblanc {
+    position: absolute;
+    height: 144px;
+    width: 343px;
+    left: 37px;
+    top: 447px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
 
+}
+.hotelbleuetblanc {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 144px;
+    width: 137px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 0px 0px 20px;
+    border: 5px solid #FFFFFF
+}
+.titrehotelbleuetblanc {
+    position: absolute;
+    height: 19px;
+    width: 169px;
+    left: 152px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nuit68 {
+    position: absolute;
+    height: 15px;
+    width: 169px;
+    left: 152px;
+    top: 34px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 .activitesmarseille {
     position: absolute;
-    top: 1050px;
+    top: 1112px;
     height: 496px;
-    width: 1440px;
-    left: 0px;
+    width: 1337px;
+    left: 50px;
+    display: flex;
 }
 
 .titreactivitesamarseille {
     position: absolute;
     height: 30.018735885620117px;
     width: 212px;
-    left: 50px;
+    left: 0px;
     top: 0px;
     font-family: Raleway;
     font-size: 22px;
@@ -647,26 +1035,165 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+.vieuxport {
+    position: absolute;
+    height: 444.5082092285156px;
+    width: 302px;
+    left: 0px;
+    top: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.photovieuxport {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 389px;
+    width: 302px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #D9D9D9
+}
+.titrevieuxport {
+    position: absolute;
+    height: 15px;
+    width: 247px;
+    left: 19px;
+    top: 385px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.fortdepomegues {
+    position: absolute;
+    height: 445px;
+    width: 302px;
+    left: 345px;
+    top: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.photofortdepomegues {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 389px;
+    width: 302px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #D9D9D9
+}
+.titrefortdepomegues {
+    position: absolute;
+    height: 15px;
+    width: 247px;
+    left: 19px;
+    top: 385px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
 
+}
+.parcdescalanques {
+    position: absolute;
+    height: 444.5082092285156px;
+    width: 302px;
+    left: 690px;
+    top: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.photocalanques {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 389px;
+    width: 302px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #D9D9D9
+}
+.titrecalanques {
+    position: absolute;
+    height: 15px;
+    width: 247px;
+    left: 19px;
+    top: 385px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.notredamedelagarde {
+    position: absolute;
+    height: 445px;
+    width: 302px;
+    right: 0px;
+    top: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background: #FFFFFF;
+}
+.photonotredame {
+    box-sizing: border-box;
+    object-fit: cover;
+    position: absolute;
+    height: 389px;
+    width: 302px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #D9D9D9
+}
+.titrenotredame {
+    position: absolute;
+    height: 15px;
+    width: 247px;
+    left: 19px;
+    top: 385px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 /*footer*/
 footer {
     position: absolute;
     height: 225px;
-    width: 1440px;
-    left: 48px;
-    top: 1666px;
+    width: 1339px;
+    left: 92px;
+    top: 1800px;
     border-radius: 0px;
     background: #F2F2F2;
-}
-
-.directionRow {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
     text-align: left;
 }
 .directionColumn {
+    position: absolute;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     color: #000000;
 }
