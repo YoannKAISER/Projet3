@@ -3,6 +3,7 @@
     font-family: "Raleway";
     src: url('Raleway/Raleway-VariableFont_wght.ttf');
 }
+
 body {
     height: 1884px;
     max-width: 1440px;
@@ -35,6 +36,7 @@ header {
     flex-direction: row;
     justify-content: center;
 }
+
 .logo {
     position: absolute;
     height: 19px;
@@ -43,19 +45,7 @@ header {
     top: 44px;
     border-radius: 0px;
 }
-bordertop {
-    position: absolute;
-    height: 2px;
-    width: 162px;
-    left: 1160px;
-    top: 0px;
-    border-radius: 0px;
-    background: #0065FC;
-}
-.bordertop:hover {
-    position: absolute;
-    height: 4px;
-}
+
 nav {
     position: absolute;
     height: 19px;
@@ -109,6 +99,7 @@ li {
     color: #0065FC;
     border-top: 2px solid #0065FC ;
 }
+
 /*main*/
 main {
     position: absolute;
@@ -153,14 +144,14 @@ main {
     text-align: left;
 }
 
-.loc {
+.localisation {
     height: 49px;
     width: 332px;
     left: 55px;
     top: 210px;
     border-radius: 0px;
 }
-.localisation {
+.iconelocalisation {
     position: absolute;
     height: 47px;
     width: 50px;
@@ -425,7 +416,7 @@ main {
     border-radius: 0px;
 
 }
-.info {
+.iconeinfo {
     position: absolute;
     height: 24px;
     width: 24px;
@@ -457,14 +448,14 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.hebergementsamarseille {
+.sectionhebergementsamarseille {
     position: absolute;
     height: 626px;
     width: 1340px;
     left: 50px;
     top: 426px;
 }
-.hebergementmarseille {
+.hebergementamarseille {
     position: absolute;
     height: 626px;
     width: 880px;
@@ -488,7 +479,7 @@ main {
     text-align: left;
 }
 
-.aubergecanebiere {
+.aubergelacanebiere {
     position: absolute;
     height: 199px;
     width: 246px;
@@ -498,7 +489,7 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.aubergelacanebiere {
+.photolacanebiere {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -510,7 +501,7 @@ main {
     border-radius: 20px 20px 0px 0px;
     border: 5px solid #FFFFFF;
 }
-.canebiere {
+.titreaubergelacanebiere {
     position: absolute;
     height: 15px;
     width: 204px;
@@ -556,16 +547,8 @@ main {
     border-radius: 0px;
     color: #0065FC;
 }
-.st {
-    position: absolute;
-    height: 12px;
-    width: 12px;
-    left: 20px;
-    top: 0px;
-    border-radius: 0px;
-    color: #0065FC;    
-}
-.port {
+
+.hotelduport {
     position: absolute;
     height: 199px;
     width: 246px;
@@ -575,7 +558,7 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.hotelduport {
+.photohotelduport {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -613,7 +596,8 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.mouettes {
+
+.hotellesmouettes {
     position: absolute;
     height: 199px;
     width: 246px;
@@ -622,18 +606,8 @@ main {
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
-
 }
-.hotelmouettes {
-    position: absolute;
-    height: 199px;
-    width: 246px;
-    left: 0px;
-    top: 0px;
-    border-radius: 20px;
-    background: #FFFFFF;
-}
-.hotellesmouettes {
+.photohotellesmouettes {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -672,7 +646,8 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.mer {
+
+.hoteldelamer {
     position: absolute;
     height: 199px;
     width: 246px;
@@ -682,7 +657,7 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.hoteldelamer {
+.photohoteldelamer {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -721,7 +696,8 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.panier {
+
+.aubergelepanier {
     position: absolute;
     height: 199px;
     width: 246px;
@@ -731,7 +707,7 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.aubergelepanier {
+.photoaubergelepanier {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -770,7 +746,8 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.amina {
+
+.hotelchezamina {
     position: absolute;
     height: 199px;
     width: 246px;
@@ -780,7 +757,7 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.hotelchezamina {
+.photohotelchezamina {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -819,6 +796,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .afficherplus {
     position: absolute;
     height: 21px;
@@ -833,6 +811,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .lespluspopulaires {
     position: absolute;
     height: 625px;
@@ -865,7 +844,8 @@ main {
     border-radius: 0px;
     color: #0065FC;
 }
-.soleil {
+
+.hotellesoleildumatin {
     position: absolute;
     height: 144px;
     width: 343px;
@@ -875,7 +855,7 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.hotellesoleildumatin {
+.photohotellesoleildumatin {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -914,7 +894,8 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.coeurdeleau {
+
+.chambresdhotesaucoeurdeleau {
     position: absolute;
     height: 144px;
     width: 343px;
@@ -924,7 +905,7 @@ main {
     box-shadow: 0px 3px 15px 0px #0000001A;
     background: #FFFFFF;
 }
-.chambresdhotes {
+.photochambresdhotes {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -963,7 +944,8 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
-.bleuetblanc {
+
+.hotelbleuetblanc {
     position: absolute;
     height: 144px;
     width: 343px;
@@ -974,7 +956,7 @@ main {
     background: #FFFFFF;
 
 }
-.hotelbleuetblanc {
+.photohotelbleuetblanc {
     box-sizing: border-box;
     object-fit: cover;
     position: absolute;
@@ -1013,6 +995,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .activitesmarseille {
     position: absolute;
     top: 1112px;
@@ -1021,7 +1004,6 @@ main {
     left: 50px;
     display: flex;
 }
-
 .titreactivitesamarseille {
     position: absolute;
     height: 30.018735885620117px;
@@ -1035,6 +1017,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .vieuxport {
     position: absolute;
     height: 444.5082092285156px;
@@ -1070,6 +1053,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .fortdepomegues {
     position: absolute;
     height: 445px;
@@ -1104,8 +1088,8 @@ main {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-
 }
+
 .parcdescalanques {
     position: absolute;
     height: 444.5082092285156px;
@@ -1141,6 +1125,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .notredamedelagarde {
     position: absolute;
     height: 445px;
