@@ -54,13 +54,10 @@ li {
     flex-direction: row;
     align-items: center;
     margin-left: 7em;
-}
-
-.hebergements , .activites {
     border-top: 2px solid #FFFFFF;
 }
 
-.hebergements:hover , .activites:hover {
+li:hover {
     border-top: 2px solid #0065FC;
 }
 
@@ -373,11 +370,11 @@ footer {
         justify-content: flex-start;
     }
 
-    .hebergements:hover , .activites:hover {
+    li:hover {
         border-top: none;
     }
 
-    .hebergements:active , .activites:active {
+    li:active {
         border-top: 2px solid #0065FC;
     }
 
@@ -439,11 +436,11 @@ footer {
         margin: 0;
     }
 
-    .hebergements:hover , .activites:hover {
+    li:hover {
         border-top: none;
     }
 
-    .hebergements:active , .activites:active {
+    li:active {
         text-align: center;
         border-bottom: 2px solid #0065FC;
         border-top: none;
