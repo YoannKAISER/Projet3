@@ -492,11 +492,12 @@ footer {
     }
 
     .filter {
-        width: 25em;
+        width: 100%;
     }
 
     .frame {
         margin-top: 1em;
+        width: 100%;
     }
 
     .populaires {
