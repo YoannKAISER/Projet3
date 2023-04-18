@@ -84,13 +84,23 @@ li:hover a {
     border: 1px solid #f2f2f2;
     text-align: center;
 }
+
 .searchButton {
     background: #0065FC;
     border-radius: 0px 10px 10px 0px;
     border: none;
+    position: relative;
 }
+
 .textSearch {
     color: #FFFFFF;
+}
+
+.fa-magnifying-glass {
+    opacity: 0;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -40px;
 }
 
 .filterBar {
@@ -478,14 +488,10 @@ footer {
         border-top: none;
     }
 
-    .filterButtons {
-        flex-direction: column;
-        width: 100%;
-    }
-
     .searchBar {
         justify-content: center;
     }
+
 
     .fa-location-dot {
         width: 7%;
@@ -497,7 +503,20 @@ footer {
     }
 
     .searchButton {
-        width: 20%;
+        width: 6%;
+        border-radius: 10px;
+        margin-left: -10px;
+    }
+
+    .textSearch {
+        opacity: 0;
+    }
+
+    .fa-magnifying-glass {
+        opacity: 1;
+        margin-top: -15px;
+        margin-left: -5px;
+        color: #FFFFFF;
     }
 
     .filterBar {
@@ -522,6 +541,11 @@ footer {
 
     .filterButton {
         margin-left: 0;
+    }
+
+    .filterButtons {
+        flex-direction: column;
+        width: 100%;
     }
 
     .populaires {
